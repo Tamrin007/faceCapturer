@@ -21,6 +21,11 @@ $ npm install
 $ cd ..
 $ npm install -g electron-prebuilt
 $ npm install -g electron-packager
+```
+
+`lib/videos` に動画を配置し、 `index.html` の26行目でソースを指定。
+
+```sh
 $ electron-packager faceCapturer <appname> --platform=darwin --arch=x64 [optional flags...]
 $ open ./<appname>-darwin-x64/<appname>.app
 ```
